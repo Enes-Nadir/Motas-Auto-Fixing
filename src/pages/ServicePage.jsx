@@ -26,15 +26,15 @@ const ServicePage = () => {
     }, 2000);
 
     // Fetch comments from backend
-    axios.get('http://localhost:5000/comments')
-      .then(response => {
-        setComments(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching comments:', error);
-      });
+    axios.get('https://motas.herokuapp.com/comments')
+    .then(response => {
+      setComments(response.data);
+    })
+    .catch(error => {
+      console.error('Error fetching comments:', error);
+    });
+}, []);
 
-  }, []);
 
   useEffect(() => {
     // Dynamically load the Sprintful script
@@ -80,7 +80,7 @@ const ServicePage = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-
+  
     if (rating === 0) {
       alert(t('servicePage.selectRatingAlert'));
       return;
@@ -93,17 +93,17 @@ const ServicePage = () => {
       rating: rating,
     };
 
-    // Post new comment to backend
-    axios.post('http://localhost:5000/comments', newComment)
-      .then(response => {
-        setComments([...comments, response.data]);
-        setFormData({ name: '', email: '', comment: '' });
-        setRating(0);
-      })
-      .catch(error => {
-        console.error('Error saving comment:', error);
-      });
-  };
+  // Post new comment to backend
+  axios.post('https://motas.herokuapp.com/comments', newComment)
+    .then(response => {
+      setComments([...comments, response.data]);
+      setFormData({ name: '', email: '', comment: '' });
+      setRating(0);
+    })
+    .catch(error => {
+      console.error('Error saving comment:', error);
+    });
+};
 
   const renderFilterButtons = () => {
     const starFilters = [5, 4, 3, 2, 1];
