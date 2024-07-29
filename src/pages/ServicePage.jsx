@@ -25,8 +25,8 @@ const ServicePage = () => {
       setActive(false);
     }, 2000);
 
-  // Fetch comments from backend
-  axios.get('https://motas.herokuapp.com/comments')
+    // Fetch comments from backend
+    axios.get('https://motas.herokuapp.com/comments')
     .then(response => {
       setComments(response.data);
     })
@@ -34,7 +34,6 @@ const ServicePage = () => {
       console.error('Error fetching comments:', error);
     });
 }, []);
-
 
 
   useEffect(() => {
@@ -104,8 +103,9 @@ const ServicePage = () => {
     .catch(error => {
       console.error('Error saving comment:', error);
     });
-};
+  };
 
+  
   const renderFilterButtons = () => {
     const starFilters = [5, 4, 3, 2, 1];
     const translations = {
