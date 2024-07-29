@@ -25,8 +25,8 @@ const ServicePage = () => {
       setActive(false);
     }, 2000);
 
-    // Fetch comments from backend
-    axios.get('https://motas.herokuapp.com/comments')
+  // Fetch comments from backend
+  axios.get('https://motas.herokuapp.com/comments')
     .then(response => {
       setComments(response.data);
     })
@@ -34,6 +34,7 @@ const ServicePage = () => {
       console.error('Error fetching comments:', error);
     });
 }, []);
+
 
 
   useEffect(() => {
