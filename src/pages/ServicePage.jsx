@@ -10,6 +10,7 @@ import SamplePhoto from "../assets/Sample_Photo.png";
 import Herobg1 from "../assets/Banner1.png";
 import i18n from '../i18n';
 import axios from 'axios';
+import { Helmet } from "react-helmet-async";
 
 const ServicePage = () => {
   const { t } = useTranslation();
@@ -25,7 +26,6 @@ const ServicePage = () => {
       setActive(false);
     }, 2000);
 
-    // Fetch comments from backend
     axios.get('https://motas.herokuapp.com/comments')
     .then(response => {
       setComments(response.data);
@@ -37,14 +37,12 @@ const ServicePage = () => {
 
 
   useEffect(() => {
-    // Dynamically load the Sprintful script
     const script = document.createElement('script');
     script.src = "https://app.sprintful.com/widget/v1.js";
     script.async = true;
     document.body.appendChild(script);
 
     return () => {
-      // Cleanup the script when the component unmounts
       document.body.removeChild(script);
     };
   }, []);
@@ -93,7 +91,6 @@ const ServicePage = () => {
       rating: rating,
     };
 
-  // Post new comment to backend
   axios.post('https://motas.herokuapp.com/comments', newComment)
     .then(response => {
       setComments([...comments, response.data]);
@@ -241,11 +238,16 @@ const ServicePage = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Mechanic Masters - Automobilių remontas, Servisas Vilniuje</title>
+      <meta name="description" content="Mechanic Masters - patikimas automobilių servisas, siūlantis aukščiausios kokybės paslaugas Vilniuje. Automobilių remontas, techninė priežiūra, diagnostika ir daugiau." />
+      <link rel="canonical" href="/service" />
+    </Helmet>
+
       {active === true && <Preloader />}
 
       <HeaderOne />
 
-      {/* Banner */}
       <div
         className="banner-wrapper"
         style={{ backgroundImage: `url(${Herobg1})`, padding: '200px 0 0 0' }}
@@ -266,10 +268,10 @@ const ServicePage = () => {
                   {t('banner.text')}
                 </p>
                 <div className="btn-group">
-                  <RouterLink to="https://on.sprintful.com/mechanic-masters" className="btn">
+                  <RouterLink to="https://on.sprintful.com/mechanic-masters" className="btn" title="Book Now">
                     {t('banner.bookNow')}
                   </RouterLink>
-                  <ScrollLink to="services-section" smooth={true} duration={500} className="btn style-border">
+                  <ScrollLink to="services-section" smooth={true} duration={500} className="btn style-border" title="Our Services">
                     {t('banner.ourServices')}
                   </ScrollLink>
                 </div>
@@ -281,7 +283,6 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* About Us */}
       <div className="about-section space">
         <div className="container">
           <div className="row align-items-center">
@@ -293,14 +294,18 @@ const ServicePage = () => {
             </div>
             <div className="col-lg-6">
               <div className="about-image">
-                <img src={SamplePhoto} alt={t('altText.aboutUs')} />
+                <img src={SamplePhoto} alt={t('altText.aboutUs')} 
+                  width="546" 
+                  height="364" 
+                  loading="lazy"
+                  title={t('altText.aboutUs')}
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Services */}
       <div id="services-section" className="service-area-1 space overflow-hidden">
         <div className="container">
           <h2>{t('ServiceTitle')}</h2> 
@@ -311,7 +316,12 @@ const ServicePage = () => {
                   <div className="service-card_content">
                     <div className="service-card_icon_price">
                       <div className="service-card_icon">
-                        <img src={service.icon} alt={t(service.titleKey)} />
+                        <img src={service.icon} alt={t(service.titleKey)} 
+                          width="40" 
+                          height="40" 
+                          loading="lazy"
+                          title={t(service.titleKey)}
+                        />
                       </div>
                       <div className="service-card_price">{service.price} €</div>
                     </div>
@@ -321,7 +331,12 @@ const ServicePage = () => {
                     <p className="service-card_text">{t(service.descriptionKey)}</p>
                   </div>
                   <div className="service-card_img">
-                    <img src={service.image} alt={t(service.titleKey)} />
+                    <img src={service.image} alt={t(service.titleKey)} 
+                       width="316" 
+                       height="150" 
+                       loading="lazy"
+                       title={t(service.titleKey)}
+                    />
                   </div>
                 </div>
               </div>
@@ -330,12 +345,6 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* Sprintful Booking System */}
-      {/* <div className="sprintful-widget-container" style={{ padding: '20px 0' }}>
-        <div className="sprintful-inline-widget" data-copy-parents-query="true" data-url="https://on.sprintful.com/mechanic-masters?hide-logo=true&hide-message=true" style={{ minWidth: '320px', height: '630px', backgroundColor: '#fff' }}></div>
-      </div> */}
-
-      {/* Map */}
       <div className="space-bottom">
         <div className="container">
           <div className="map-sec">
@@ -349,7 +358,6 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* Testimonials */}
       <div className="testimonials-section space">
         <div className="container">
           <div className="title-area text-center">
@@ -396,7 +404,6 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* Comments */}
       <div className="write-comment-section space">
         <div className="container">
           <div className="title-area text-center">
@@ -456,16 +463,20 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* Team Members */}
       <div className="team-area-2 space">
-        <h1 style={{ marginLeft: '20px' }}>{t('teamMembers')}</h1>
+        <h2 style={{ marginLeft: '20px' }}>{t('teamMembers')}</h2>
         <div className="container">
           <div className="row gx-30 gy-30">
             {teamMembers.map((member) => (
               <div className="col-lg-4 col-md-6" key={member.id}>
                 <div className="team-card style2">
                   <div className="team-card_img">
-                    <img src={member.img} alt={member.name} />
+                    <img src={member.img} alt={member.name} 
+                        width="276" 
+                        height="324" 
+                        loading="lazy"
+                        title={member.name}
+                    />
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
@@ -474,17 +485,17 @@ const ServicePage = () => {
                     <span className="team-card_desig">{t(member.designationKey)}</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <RouterLink to={member.socialLinks.linkedin}>
-                          <i className="fab fa-linkedin-in" />
+                        <RouterLink to={member.socialLinks.linkedin} title={`${member.name} LinkedIn`}>
+                          <i className="fab fa-linkedin-in" /> LinkedIn
                         </RouterLink>
-                        <RouterLink to={member.socialLinks.instagram}>
-                          <i className="fab fa-instagram" />
+                        <RouterLink to={member.socialLinks.instagram} title={`${member.name} Instagram`}>
+                          <i className="fab fa-instagram" /> Instagram
                         </RouterLink>
-                        <RouterLink to={member.socialLinks.facebook}>
-                          <i className="fab fa-facebook-f" />
+                        <RouterLink to={member.socialLinks.facebook} title={`${member.name} Facebook`}>
+                          <i className="fab fa-facebook-f" /> Facebook
                         </RouterLink>
-                        <RouterLink to={member.socialLinks.twitter}>
-                          <i className="fab fa-twitter" />
+                        <RouterLink to={member.socialLinks.twitter} title={`${member.name} Twitter`}>
+                          <i className="fab fa-twitter" /> Twitter
                         </RouterLink>
                       </div>
                     </div>
@@ -496,7 +507,6 @@ const ServicePage = () => {
         </div>
       </div>
 
-      {/* Contact Form */}
       <div className="space-bottom">
         <div className="container">
           <div className="row flex-row-reverse">
@@ -505,7 +515,11 @@ const ServicePage = () => {
                 <div className="about-counter-grid jump">
                   <img
                     src="assets/img/icon/faq2-counter-icon-1.svg"
-                    alt="Fixturbo"
+                    alt="Motas"
+                    width="60" 
+                    height="70" 
+                    loading="lazy"
+                    title="Counter Icon"
                   />
                   <div className="media-right">
                     <h3 className="about-counter">
@@ -514,7 +528,12 @@ const ServicePage = () => {
                     <h4 className="about-counter-text">{t('servicePage.servicesWeProvide')}</h4>
                   </div>
                 </div>
-                <img src="assets/img/normal/faq-thumb-2-1.png" alt="Fixturbo" />
+                <img src="assets/img/normal/faq-thumb-2-1.png" alt="Motas" 
+                    width="474" 
+                    height="473" 
+                    loading="lazy"
+                    title="FAQ Thumbnail"
+                />
               </div>
             </div>
             <div className="col-lg-6">

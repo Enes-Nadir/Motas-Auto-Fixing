@@ -169,7 +169,7 @@ const AboutPage = () => {
                 <SwiperSlide>
                   <div className="team-card style2">
                     <div className="team-card_img">
-                      <img src="assets/img/team/team-1-3.png" alt="Fixturbo" />
+                      <img src="assets/img/team/Umut.png" alt="Fixturbo" />
                     </div>
                     <div className="team-card_content">
                       <h4 className="team-card_title">
