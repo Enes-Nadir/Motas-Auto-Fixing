@@ -26,7 +26,7 @@ const ServicePage = () => {
       setActive(false);
     }, 2000);
 
-    axios.get('https://www.motas.lt/comments')
+    axios.get('https://motas.herokuapp.com/comments')
     .then(response => {
       setComments(response.data);
     })
@@ -35,17 +35,6 @@ const ServicePage = () => {
     });
 }, []);
 
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = "https://app.sprintful.com/widget/v1.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   const handleLoadMore = () => {
     setVisibleTestimonials((prevVisible) => prevVisible + 3);

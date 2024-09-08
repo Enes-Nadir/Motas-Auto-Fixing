@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'https://www.motas.lt' // Allow only your frontend domain
+  origin: 'https://www.motas.lt' 
 }));
 
 const mongoURI = process.env.MONGODB_URI || 'mongodb+srv://enesnadir:MT31yleSt1qXBt31@cluster0.6ps4jy2.mongodb.net/comments?retryWrites=true&w=majority&appName=Cluster0';
