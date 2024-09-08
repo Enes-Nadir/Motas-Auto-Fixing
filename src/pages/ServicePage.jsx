@@ -358,9 +358,9 @@ const ServicePage = () => {
           </div>
           {renderFilterButtons()}
           <div className="row">
-            {filteredComments.slice(0, visibleTestimonials).map((testimonial) => (
-              <div className="col-12 mb-4" key={testimonial._id}>
-                <div className="testimonial-card">
+            {filteredComments.slice(0, visibleTestimonials).map((testimonial, index) => (
+              <div className="col-12 mb-4" key={testimonial._id || index}>
+              <div className="testimonial-card">
                   <div className="row">
                     <div className="col-10">
                       <h3>{testimonial.name} <h6>{testimonial.formattedDate}</h6></h3>
