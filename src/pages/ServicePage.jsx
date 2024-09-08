@@ -26,7 +26,7 @@ const ServicePage = () => {
       setActive(false);
     }, 2000);
 
-    axios.get('https://motas.herokuapp.com/comments')
+    axios.get('https://www.motas.lt/comments')
     .then(response => {
       setComments(response.data);
     })
@@ -91,7 +91,7 @@ const ServicePage = () => {
       rating: rating,
     };
 
-  axios.post('https://motas.herokuapp.com/comments', newComment)
+  axios.post('https://www.motas.lt/comments', newComment)
     .then(response => {
       setComments([...comments, response.data]);
       setFormData({ name: '', email: '', comment: '' });
