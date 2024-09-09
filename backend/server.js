@@ -42,7 +42,7 @@ const Comment = mongoose.model('Comment', commentSchema);
 // Ensure virtuals are included in toJSON
 commentSchema.set('toJSON', { virtuals: true });
 
-app.post('/comments', async (req, res) => {
+app.post('/service', async (req, res) => {
   const { name, email, feedback, rating } = req.body;
   const newComment = new Comment({ name, email, feedback, rating });
   try {
@@ -54,7 +54,7 @@ app.post('/comments', async (req, res) => {
   }
 });
 
-app.get('/comments', async (req, res) => {
+app.get('/service', async (req, res) => {
   try {
     const comments = await Comment.find();
     res.json(comments);
