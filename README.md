@@ -26,10 +26,10 @@ Here are some previews of the **Motas Auto Fixing** website:
 
 ## 🚀 Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js / PHP (If applicable)
-- **Database:** MySQL / Firebase (If applicable)
-- **Hosting:** GitHub Pages / Custom Server
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **Backend:** Node.js
+- **Database:** Firebase 
+- **Hosting:** Heroku / Custom Server
 
 ## 📩 Contact
 
