@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Motas Auto Fixing 🚗🔧
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Motas Auto Fixing** repository! This project is designed for an automotive repair service, providing a platform for customers to learn about services, book appointments, and contact the team.
+![Homepage Screenshot](homepage.png)
 
-## Available Scripts
+## 📌 About Motas Auto Fixing
 
-In the project directory, you can run:
+Motas Auto Fixing is dedicated to delivering high-quality vehicle repair and maintenance services. Whether you need general repairs, diagnostics, or routine maintenance, our skilled team ensures your car is in excellent condition.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🛠 **Automotive Services:** Information on available car repair and maintenance services.
+- 📅 **Appointment Booking:** Customers can schedule a service appointment.
+- 📍 **Location & Contact Info:** Easy access to the garage’s address and contact details.
+- 📸 **Gallery & Testimonials:** Showcase of past work and customer reviews.
+- 🌍 **Multilingual Support:** Available in Lithuanian and English for a broader audience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼 Screenshots
 
-### `npm test`
+Here are some previews of the **Motas Auto Fixing** website:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Homepage Screenshot](screenshots/homepage.png)
+![Services Screenshot](screenshots/services.png)
+![Contact Page Screenshot](screenshots/contact.png)
 
-### `npm run build`
+_(Replace with actual image paths)_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js / PHP (If applicable)
+- **Database:** MySQL / Firebase (If applicable)
+- **Hosting:** GitHub Pages / Custom Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📩 Contact
 
-### `npm run eject`
+For any inquiries or collaborations, feel free to reach out:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📧 Email: [enes.nadirt@gmail.com](mailto:enes.nadirt@gmail.com)  
+🌐 Website: [https://www.motas.lt](https://www.motas.lt)  
+📍 Location: [Vilnius Lithuania]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📜 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License - feel free to modify and use it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 🔥 How to Contribute
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you'd like to contribute:
+1. Fork this repository.
+2. Create a new branch (`feature-branch`).
+3. Make your changes and commit them.
+4. Push to your branch and submit a Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let's improve **Motas Auto Fixing** together! 🚗🔧
