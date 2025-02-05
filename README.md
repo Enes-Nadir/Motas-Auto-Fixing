@@ -1,7 +1,7 @@
 # Motas Auto Fixing 🚗🔧
 
 Welcome to the **Motas Auto Fixing** repository! This project is designed for an automotive repair service, providing a platform for customers to learn about services, book appointments, and contact the team.
-![Homepage Screenshot](homepage.png)
+![Homepage Screenshot](/Homepagess.png)
 
 ## 📌 About Motas Auto Fixing
 
