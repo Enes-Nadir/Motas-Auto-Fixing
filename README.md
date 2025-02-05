@@ -1,9 +1,9 @@
 # Motas Auto Fixing 🚗🔧
-![Motas Favicon](/Motasfav.png)  ![Logo](/MotasLogo.png)  
+ ![Logo](/MotasLogo.png)  
 
 Welcome to the **Motas Auto Fixing** repository! This project is designed for an automotive repair service, providing a platform for customers to learn about services, book appointments, and contact the team.
 
-## 📌 About Motas Auto Fixing
+## 📌 About Motas Auto Fixing ![Motas Favicon](/Motasfav.png) 
 
 Motas Auto Fixing is dedicated to delivering high-quality vehicle repair and maintenance services. Whether you need general repairs, diagnostics, or routine maintenance, our skilled team ensures your car is in excellent condition.
 
