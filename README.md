@@ -1,4 +1,5 @@
 # Motas Auto Fixing 🚗🔧
+![Motas Favicon](/Motasfav.png)  ![Logo](/MotasLogo.png)  
 
 Welcome to the **Motas Auto Fixing** repository! This project is designed for an automotive repair service, providing a platform for customers to learn about services, book appointments, and contact the team.
 
@@ -22,7 +23,6 @@ Here are some previews of the **Motas Auto Fixing** website:
 ![Services Screenshot](/Servicesss.png)
 ![Team Members Screenshot](/TeamMemberss.png)
 
-_(Replace with actual image paths)_
 
 ## 🚀 Technologies Used
 
