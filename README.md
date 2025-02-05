@@ -36,7 +36,7 @@ Here are some previews of the **Motas Auto Fixing** website:
 For any inquiries or collaborations, feel free to reach out:
 
 📧 Email: [enes.nadirt@gmail.com](mailto:enes.nadirt@gmail.com)  
-🌐 Website: [https://www.motas.lt](https://www.motas.lt)  
+🌐 Website: [www.motas.lt](https://www.motas.lt)  
 📍 Location: [Vilnius Lithuania]
 
 ## 📜 License
