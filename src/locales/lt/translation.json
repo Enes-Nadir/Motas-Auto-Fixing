@@ -1,0 +1,298 @@
+{
+    "header": {
+      "home": "Pradžia",
+      "about": "Apie mus",
+      "services": "Paslaugos",
+      "projects": "Projektai",
+      "blog": "Dienoraštis",
+      "contact": "Kontaktai",
+      "needHelp": "Reikia pagalbos?",
+      "phoneNumber": "(307) 555-0133",
+      "workingday": "Pirmadienis-Sekmadienis 24/7"
+    },
+      "hero": {
+        "subTitle": "Mūsų komanda teikia profesionalias automobilių remonto paslaugas Vilniuje. Kreipkitės dėl greito ir kokybiško aptarnavimo!",
+        "title": {
+          "part1": "Pasiruošk",
+          "part2": "Didžios",
+          "part3": "Kokybės Paslaugai"
+        },
+        "text": "Ieškote patikimų automobilių paslaugų Vilniuje? Siūlome aukštos kokybės automobilių remontą, aptarnavimą ir techninę priežiūrą.",
+        "learnAboutUs": "Sužinokite Apie Mus",
+        "ourServices": "Mūsų Paslaugos"
+      },
+      "counter": {
+        "qualityService": "Kokybiškos paslaugos",
+        "happyClients": "Laimingi klientai",
+        "teamMember": "Komandos narys",
+        "shops": "Parduotuvės",
+        "checklist1": "Esame jūsų remonto superparduotuvė",
+        "checklist2": "Ekspertizės pagrindu",
+        "checklist3": "Automobilių remonto geriausios paslaugos",
+        "requestCall": "Prašymas skambinti:"
+      },
+      "about": {
+    "subTitle": "Apie Mus",
+    "title": "Mūsų Misija ir Vizija",
+    "description": "Motas yra novatoriška platforma, skirta sujungti klientus su vietinėmis automobilių remonto dirbtuvėmis. Mūsų pagrindinė misija yra padaryti patikimų remonto paslaugų paiešką lengvą su patogia platforma ir efektyvia susitikimų planavimo sistema, pagerinti klientų patirtį ir remti vietines remonto dirbtuves jų verslo augime.",
+    "trustedCustomer": "Patikimas Klientas",
+    "yearsOfExperiences": "Metų Patirtis",
+    "features": [
+      {
+        "title": "Vartotojui patogi platforma",
+        "text": "Mūsų platforma sukurta atsižvelgiant į naudojimo paprastumą, suteikiant vientisą patirtį vartotojams, ieškantiems ir susisiekiantiems su vietinėmis automobilių remonto dirbtuvėmis."
+      },
+      {
+        "title": "Lengvas susitikimų planavimas",
+        "text": "Lengvai suplanuokite susitikimus su savo pasirinktomis remonto dirbtuvėmis, naudodamiesi mūsų intuityvia rezervavimo sistema, pritaikyta jūsų užimtam grafikas."
+      }
+    ]
+  },
+    "blogArea": {
+      "subTitle": "Remonto dirbtuvės",
+      "title": "Raskite geriausias remonto dirbtuves",
+      "viewDetails": "Žiūrėti detales"
+    },
+    "repairShops": {
+      "1": {
+        "name": "Mechanic Masters",
+        "description": "Tai pavyzdys Puslapis",
+        "address": "Saulėtekio al. 11, Vilnius",
+        "phone": "(+370) 680 76548"
+      },
+      "2": {
+        "name": "Precision Auto Works",
+        "description": "Aukštos kokybės automobilių remonto sprendimai už prieinamą kainą.",
+        "address": "456 Elm St, Springfield",
+        "phone": "(555) 987-6543"
+      },
+      "3": {
+        "name": "Reliable Car Services",
+        "description": "Patikimos remonto paslaugos, orientuotos į klientų pasitenkinimą.",
+        "address": "789 Oak St, Springfield",
+        "phone": "(555) 456-7890"
+      },
+      "4": {
+        "name": "Expert Auto Care",
+        "description": "Ekspertų automobilių remonto ir priežiūros paslaugos.",
+        "address": "101 Pine St, Springfield",
+        "phone": "(555) 321-0987"
+      }
+    },
+    
+      "processArea": {
+        "subTitle": "Darbo Procesas",
+        "title": "Padidinkite savo remonto dirbtuvių našumą su mūsų paslaugomis",
+        "step1": {
+          "title": "Informacijos Surinkimas",
+          "description": "Mes surenkame išsamią informaciją ir medžiagą apie jūsų remonto dirbtuvę, kad visapusiškai suprastume jūsų paslaugas ir pasiūlymus."
+        },
+        "step2": {
+          "title": "Svetainės Kūrimas",
+          "description": "Mūsų komanda sukuria profesionalią svetainę, kurioje pristatomos jūsų remonto dirbtuvės, su specializuota užsakymų sistema, pritaikyta jūsų poreikiams."
+        },
+        "step3": {
+          "title": "Verslo Skatinimas",
+          "description": "Turint veiksmingą svetainę ir užsakymų sistemą, jūsų verslas patiria reikšmingą pakilimą, pritraukdamas daugiau klientų ir didinant efektyvumą."
+        }
+      },
+          "teamArea": {
+            "subTitle": "Komandos Narys",
+            "title": "Greitas ir Efektyvus Automobilių Remontas",
+            "member1": {
+              "designation": "Programuotojas",
+              "description": "Entuziastingas programuotojas, siekiantis kurti novatoriškus sprendimus ir tobulinti vartotojų patirtį."
+            },
+            "member2": {
+              "designation": "Pardavimų Vadovas",
+              "description": "Patyręs pardavimų vadovas, turintis įrodytą patirtį didinant pardavimų augimą ir kuriant stiprius klientų santykius."
+            }
+          },
+            "ctaArea": {
+              "subTitle": "Susisiekite su mumis",
+              "title": "Kur varikliai riaumoja ir kyla problemos",
+              "buttonText": "Peržiūrėti daugiau"
+            },
+              "faqArea": {
+                "subTitle": "Dažnai užduodami klausimai",
+                "title": "Klausimai apie mūsų automobilių remonto dirbtuvių platformą",
+                "description": "Sužinokite daugiau apie mūsų platformą automobilių remonto dirbtuvėms ir kaip galime padėti jums augti verslą ir pritraukti klientus.",
+                "buttonText": "Susisiekite su mumis dėl daugiau informacijos",
+                "faq1": {
+                  "question": "Kaip mano automobilių remonto dirbtuvės gali gauti naudos prisijungus prie jūsų platformos?",
+                  "answer": "Prisijungus prie mūsų platformos, jūsų automobilių remonto dirbtuvės gaus matomumą, prieigą prie platesnės klientų bazės ir įrankius, leidžiančius efektyviai valdyti paslaugas, kainas ir klientų atsiliepimus."
+                },
+                "faq2": {
+                  "question": "Kokią informaciją reikia pateikti norint įtraukti savo dirbtuvę į jūsų platformą?",
+                  "answer": "Norėdami įtraukti savo dirbtuvę, turime gauti pagrindinę informaciją, pvz., jūsų dirbtuvės pavadinimą, vietą, siūlomas paslaugas, kainų detales ir bet kokius klientų atsiliepimus, kuriuos norėtumėte parodyti."
+                },
+                "faq3": {
+                  "question": "Ar yra kaina prisijungti prie jūsų platformos kaip automobilių remonto dirbtuvių?",
+                  "answer": "Siūlome lanksčius prenumeratos planus, pritaikytus skirtingiems poreikiams. Susisiekite su mumis, kad aptartume kainų nustatymo galimybes ir rastume planą, kuris geriausiai tinka jūsų dirbtuvėms."
+                },
+                "faq4": {
+                  "question": "Kaip klientai gali rasti mano dirbtuvę per jūsų platformą?",
+                  "answer": "Klientai gali lengvai ieškoti jūsų dirbtuvės pagal vietą, siūlomas paslaugas, klientų reitingus ir kitus kriterijus. Mes optimizuojame paieškos matomumą, kad jūsų dirbtuvę pastebėtų potencialūs klientai."
+                }
+              },
+                "clientArea": {
+                  "sendRequest": "Siųsti užklausą",
+                  "oneStopCarRepair": "Mūsų vieno langelio automobilių remonto dirbtuvės",
+                  "yourName": "Jūsų vardas",
+                  "emailAddress": "El. pašto adresas",
+                  "phoneNumber": "Telefono numeris",
+                  "chooseOption": "Pasirinkite parinktį",
+                  "autoRepair": "Automobilių remontas",
+                  "carRepair": "Automobilių remontas",
+                  "automotive": "Automobilis",
+                  "messageHere": "Pranešimas čia..",
+                  "appointmentNow": "Užsirašykite dabar"
+                },              
+                "subscribe": {
+                  "requestingCall": "Užsakomas skambutis:"
+                },
+                  "footer": {
+                    "company": "Įmonė",
+                    "about": "Apie",
+                    "team": "Komanda",
+                    "faq": "DUK",
+                    "privacyPolicy": "Privatumo politika",
+                    "services": "Paslaugos",
+                    "mechanicMasters": "Mechanikų meistrai",
+                    "speedyAutoRepair": "Greitas auto remontas",
+                    "mobileCarRepair": "Mobilus auto remontas",
+                    "proAutoFix": "Profesionalus auto remontas",
+                    "precisionAutoWorks": "Tikslaus darbo auto",
+                    "contact": "Kontaktai",
+                    "addressLine1": "Senojo miesto gatvė, JAV",
+                    "addressLine2": "1212 Niujorkas-3500",
+                    "getInTouch": "Susisiekite su mumis",
+                    "getLatestNews": "Gaukite naujausias žinias iš mūsų",
+                    "yourEmailAddress": "Jūsų el. pašto adresas",
+                    "allRightsReserved": "Visos teisės saugomos Tosun Group",
+                    "termsCondition": "Terminai ir sąlygos",
+                    "contactUs": "Susisiekite su mumis"
+                  }, 
+                    "teamArea2": {
+                      "subTitle": "Komandos nariai",
+                      "title": "Automobilių remonto platforma",
+                      "description": "Suteikiame jums geriausią aptarnavimą su aukštos kvalifikacijos ekspertais, kad suteiktume jums geriausią aptarnavimą!",
+                      "member1": {
+                        "designation": "Programuotojas"
+                      },
+                      "member2": {
+                        "designation": "Pardavimų vadybininkas"
+                      }
+                    },
+                      "testimonial": {
+                        "subTitle": "Klientų atsiliepimai",
+                        "title": "Geriausios automobilių remonto paslaugos",
+                        "reviews": [
+                          {
+                            "name": "Tomas Kazlauskas",
+                            "designation": "Klientas",
+                            "comment": "Stogų paslaugos apima remontą, montavimą ir priežiūrą gyvenamuosiuose ir komerciniuose pastatuose. Ekspertai technikai diagnozuoja ir sprendžia problemas su stogo medžiagomis, latakų sistemomis ir ventiliacija."
+                          },
+                          {
+                            "name": "Jonas Petraitis",
+                            "designation": "Klientas",
+                            "comment": "Puikus aptarnavimas! Mano automobilis buvo greitai suremontuotas, o personalas buvo labai profesionalus. Labai rekomenduoju."
+                          },
+                          {
+                            "name": "Asta Jonaitė",
+                            "designation": "Klientas",
+                            "comment": "Puiki patirtis naudojantis jų platforma. Tai padarė patikimos remonto dirbtuvės paiešką labai lengva. Naudosiu vėl."
+                          }
+                        ]
+                      },
+                        "servicePage": {
+                          "about": "Apie mūsų automobilių taisymo paslaugas",
+                          "aboutDescription": "Mes teikiame aukščiausios kokybės automobilių taisymo paslaugas, kad jūsų transporto priemonė veiktų sklandžiai ir efektyviai. Mūsų patyrusių profesionalų komanda siekia užtikrinti išskirtinį klientų aptarnavimą ir aukštos kokybės remontą.",
+                          "testimonialsTitle": "Ką sako mūsų klientai",
+                          "leaveCommentTitle": "Palikite komentarą",
+                          "feedbackTitle": "Mums svarbi jūsų nuomonė",
+                          "ratingLabel": "Įvertinkite paslaugą!",
+                          "submitComment": "Pateikti komentarą",
+                          "loadMoreComments": "Įkelti daugiau komentarų",
+                          "hideComments": "Slėpti komentarus",
+                          "yourName": "Jūsų vardas",
+                          "emailAddress": "El. pašto adresas",
+                          "phoneNumber": "Telefono numeris",
+                          "chooseOption": "Pasirinkite parinktį",
+                          "autoRepair": "Automobilių remontas",
+                          "carRepair": "Automobilių remontas",
+                          "automotive": "Automobilis",
+                          "messageHere": "Pranešimas čia..",
+                          "appointmentNow": "Užsirašykite dabar",
+                          "servicesWeProvide": "Teikiamos paslaugos",
+                          "contactForm": "Kontaktinė forma",
+                          "carRepairServices": "Geriausios automobilių remonto paslaugos",
+                          "designation": "Mechanikas"   
+                        },
+                          "banner": {
+                            "subTitle": "Aukščiausios kokybės remonto paslaugos",
+                            "title": {
+                              "part1": "Gaukite savo automobilį",
+                              "part2": "Atgal į kelią",
+                              "part3": "Su"
+                            },
+                            "text": "Kokybiškos remonto paslaugos, kad jūsų transporto priemonė veiktų sklandžiai.",
+                            "bookNow": "Užsisakyti dabar!",
+                            "ourServices": "Mūsų paslaugos"
+
+                          },
+                          "ServiceTitle": "Paslaugos",
+                            "services": {
+                              "FirstService": {
+                                "title": "Alyvos keitimas",
+                                "description": "Užtikrinkite sklandų variklio darbą su mūsų visapusiška alyvos keitimo paslauga."
+                              },
+                              "SecondService": {
+                                "title": "Stabdžių remontas",
+                                "description": "Užtikrinkite savo automobilio saugumą su mūsų profesionaliomis stabdžių remonto paslaugomis."
+                              },
+                              "ThirdService": {
+                                "title": "Padangų keitimas vietomis",
+                                "description": "Pratęskite savo padangų tarnavimo laiką su reguliariu padangų keitimu vietomis."
+                              },
+                              "FourthService": {
+                                "title": "Akumuliatoriaus keitimas",
+                                "description": "Greitai ir patikimai pakeiskite akumuliatorių, kad jūsų automobilis veiktų."
+                              },
+                              "FifthService": {
+                                "title": "Pavarų dėžės priežiūra",
+                                "description": "Palaikykite savo pavarų dėžės veikimą su mūsų specializuota paslauga."
+                              },
+                              "SixthService": {
+                                "title": "Variklio diagnostika",
+                                "description": "Nustatykite ir išspręskite variklio problemas su mūsų pažangia diagnostika."
+                              }
+                            },
+                              "teamMembers": "Komandos nariai",
+                                "faqArea2": {
+                                  "subTitle": "Dažniausiai užduodami klausimai",
+                                  "title": "Klausimai apie mūsų automobilių taisyklos platformą",
+                                  "faq1": {
+                                    "question": "Kas yra Motas?",
+                                    "answer": "Motas yra platforma, kuri jungia klientus su vietinėmis automobilių taisyklomis, suteikdama lengvą prieigą prie patikimų remonto paslaugų ir efektyvų susitikimų planavimą."
+                                  },
+                                  "faq2": {
+                                    "question": "Kaip galiu užregistruoti savo automobilių taisyklą Motas?",
+                                    "answer": "Norėdami užregistruoti savo automobilių remonto dirbtuvę, susisiekite su mumis forma, telefonu arba el. paštu. Mes nedelsdami su jumis susisieksime."
+                                  },
+                                  "faq3": {
+                                    "question": "Ar naudojantis Motas reikia mokėti mokestį?",
+                                    "answer": "Taip, norint įtraukti savo automobilių remonto dirbtuvę į „Motas“ sąrašą, reikia mokėti abonentinį mokestį. Jums susisiekus su mumis, pateiksime geriausią pasiūlymą, kuris padės pagerinti jūsų verslą."
+                                  },
+                                  "faq4": {
+                                    "question": "Kaip klientai gali užsisakyti susitikimus per Motas?",
+                                    "answer": "Klientai gali užsisakyti susitikimus apsilankę jūsų remonto dirbtuvių puslapyje „Motas“ ir pasirinkę laisvą laiko tarpą."
+                                  },
+                                  "faq5": {
+                                    "question": "Ar klientai gali palikti atsiliepimus apie mano taisyklą?",
+                                    "answer": "Taip, klientai gali palikti atsiliepimus ir įvertinimus jūsų taisyklos puslapyje, padėdami kitiems priimti pagrįstus sprendimus."
+                                  }
+                                }
+                                                            
+                            }                                                                                                          
+  

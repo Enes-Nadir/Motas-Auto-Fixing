@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "needHelp": "Need help?",
+    "phoneNumber": "(307) 555-0133",
+    "workingday": "Monday-Sunday 24/7"
+  },
+  "hero": {
+    "subTitle": "Top Car Repair Services in Vilnius - Auto Repair, Service, and Maintenance",
+    "title": {
+      "part1": "Gear Up",
+      "part2": "For Great",
+      "part3": "Quality Service"
+    },
+    "text": "Looking for a reliable car service in Vilnius? We offer high-quality auto repair, service, and maintenance.",
+    "learnAboutUs": "Learn About Us",
+    "ourServices": "Our Services"
+  },
+  "counter": {
+    "qualityService": "Quality Service",
+    "happyClients": "Happy Clients",
+    "teamMember": "Team Member",
+    "shops": "Shops",
+    "checklist1": "We're Your Repair Superstore",
+    "checklist2": "Fueled by Expertise",
+    "checklist3": "Car Repair the best Services",
+    "requestCall": "Requesting A Call:"
+  },
+  "about": {
+    "subTitle": "Know About Us",
+    "title": "Our Mission And Vision",
+    "description": "Motas is an innovative platform designed to connect customers with local automobile repair shops. Our core mission is to make finding reliable repair services easy with user-friendly platform and efficient appointment scheduling system, enhancing the customer experience and supporting local repair shops in growing their businesses.",
+    "trustedCustomer": "Trusted Customer",
+    "yearsOfExperiences": "Years Of Experiences",
+    "features": [
+      {
+        "title": "User-friendly Platform",
+        "text": "Our platform is designed with ease of use in mind, providing a seamless experience for users to find and connect with local automobile repair shops."
+      },
+      {
+        "title": "Easy Appointment Scheduling",
+        "text": "Effortlessly schedule appointments with your preferred repair shops using our intuitive booking system, tailored to fit your busy schedule."
+      }
+    ]
+  },
+  "blogArea": {
+    "subTitle": "Repair Shops",
+    "title": "Find the best suitable Repair Shops",
+    "viewDetails": "View Details"
+  },
+  "repairShops": {
+    "1": {
+      "name": "Mechanic Masters",
+      "description": "This is sample Page.",
+      "address": "Saulėtekio al. 11, Vilnius",
+      "phone": "(+370) 680 76548"
+    },
+    "2": {
+      "name": "Precision Auto Works",
+      "description": "High-quality auto repair solutions at affordable prices.",
+      "address": "456 Elm St, Springfield",
+      "phone": "(555) 987-6543"
+    },
+    "3": {
+      "name": "Reliable Car Services",
+      "description": "Dependable repair services with a focus on customer satisfaction.",
+      "address": "789 Oak St, Springfield",
+      "phone": "(555) 456-7890"
+    },
+    "4": {
+      "name": "Expert Auto Care",
+      "description": "Expert car repair and maintenance services.",
+      "address": "101 Pine St, Springfield",
+      "phone": "(555) 321-0987"
+    }
+  },
+  "processArea": {
+    "subTitle": "Work Process",
+    "title": "Boost Your Repair Shop with Our Services",
+    "step1": {
+      "title": "Gather Information",
+      "description": "We collect detailed information and footage from your repair shop to understand your services and offerings comprehensively."
+    },
+    "step2": {
+      "title": "Website Creation",
+      "description": "Our team creates a professional website that showcases your repair shop, complete with a specialized appointment system tailored to your needs."
+    },
+    "step3": {
+      "title": "Business Boost",
+      "description": "With an efficient website and appointment system in place, your business experiences a significant boost, attracting more customers and increasing efficiency."
+    }
+  },
+  "teamArea": {
+    "subTitle": "Team Member",
+    "title": "Quick and Efficient Car Repair Dependable Car",
+    "member1": {
+      "designation": "Software Developer",
+      "description": "A passionate software developer dedicated to building innovative solutions and enhancing user experiences."
+    },
+    "member2": {
+      "designation": "Sales Manager",
+      "description": "An experienced sales manager with a proven track record in driving sales growth and building strong client relationships."
+    }
+  },
+  "ctaArea": {
+    "subTitle": "Contact us",
+    "title": "Where Engines Roar and Problems Soar",
+    "buttonText": "View More"
+  },
+  "faqArea": {
+    "subTitle": "Frequently Asked Questions",
+    "title": "Questions About Our Car Repair Shop Platform",
+    "description": "Learn more about our platform for car repair shops and how we can help you grow your business and connect with customers.",
+    "buttonText": "Contact Us for More Information",
+    "faq1": {
+      "question": "How can my car repair shop benefit from joining your platform?",
+      "answer": "By joining our platform, your car repair shop gains visibility, access to a broader customer base, and tools to manage services, prices, and customer feedback efficiently."
+    },
+    "faq2": {
+      "question": "What information do I need to provide to list my shop on your platform?",
+      "answer": "To list your shop, we require basic information such as your shop's name, location, services offered, pricing details, and any customer testimonials or reviews you'd like to showcase."
+    },
+    "faq3": {
+      "question": "Is there a cost to join your platform as a car repair shop?",
+      "answer": "We offer flexible subscription plans tailored to suit different needs. Contact us to discuss pricing options and find a plan that works best for your shop."
+    },
+    "faq4": {
+      "question": "How can customers find my shop through your platform?",
+      "answer": "Customers can easily search for your shop based on location, services offered, customer ratings, and other criteria. We optimize search visibility to ensure your shop gets noticed by potential customers."
+    }
+  },
+  "clientArea": {
+    "sendRequest": "Send a request",
+    "oneStopCarRepair": "Our One-Stop Car Repair Shop",
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "chooseOption": "Choose an Option",
+    "autoRepair": "Auto Repair",
+    "carRepair": "Car Repair",
+    "automotive": "Automotive",
+    "messageHere": "Message here..",
+    "appointmentNow": "Appointment Now"
+  },
+  "subscribe": {
+    "requestingCall": "Requesting A Call:"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About",
+    "team": "Team",
+    "faq": "Faq",
+    "privacyPolicy": "Privacy Policy",
+    "services": "Services",
+    "mechanicMasters": "Mechanic Masters",
+    "speedyAutoRepair": "Speedy Auto Repair",
+    "mobileCarRepair": "Mobile Car Repair",
+    "proAutoFix": "Pro Auto Fix",
+    "precisionAutoWorks": "Precision Auto Works",
+    "contact": "Contact",
+    "addressLine1": "Old city Street, USA",
+    "addressLine2": "1212 New York-3500",
+    "getInTouch": "Get In Touch",
+    "getLatestNews": "Get latest news from us",
+    "yourEmailAddress": "Your Email Address",
+    "allRightsReserved": "All Rights Reserved by Tosun Group",
+    "termsCondition": "Terms & Condition",
+    "contactUs": "Contact Us"
+  },
+  "teamArea2": {
+    "subTitle": "Team Members",
+    "title": "Car Repair Platform",
+    "description": "Providing you the best service with highly qualified experties to give you the best service!",
+    "member1": {
+      "designation": "Software Developer"
+    },
+    "member2": {
+      "designation": "Sales Manager"
+    }
+  },
+  "testimonial": {
+    "subTitle": "Clients testimonial",
+    "title": "Car Repair The Best Services",
+    "reviews": [
+      {
+        "name": "Tomas Kazlauskas",
+        "designation": "Customer",
+        "comment": "Roof services include repairs installations, and maintenance for residential and commercial buildings. Expert technicians diagnose and address issues with roofing materials, gutter systems, and ventilation."
+      },
+      {
+        "name": "Jonas Petraitis",
+        "designation": "Customer",
+        "comment": "Excellent service! My car was fixed quickly and the staff was very professional. Highly recommend."
+      },
+      {
+        "name": "Asta Jonaitė",
+        "designation": "Customer",
+        "comment": "Great experience with their platform. It made finding a reliable repair shop so easy. Will use it again."
+      }
+    ]
+  },
+  "servicePage": {
+    "about": "About Our Car Fixing Services",
+    "aboutDescription": "We provide top-notch car fixing services to ensure your vehicle runs smoothly and efficiently. Our team of experienced professionals is dedicated to offering exceptional customer service and high-quality repairs.",
+    "testimonialsTitle": "What Our Clients Say",
+    "leaveCommentTitle": "Leave a Comment",
+    "feedbackTitle": "We Value Your Feedback",
+    "ratingLabel": "Rate the Service!",
+    "submitComment": "Submit Comment",
+    "loadMoreComments": "Load More Comments",
+    "hideComments": "Hide Comments",
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "chooseOption": "Choose an Option",
+    "autoRepair": "Auto Repair",
+    "carRepair": "Car Repair",
+    "automotive": "Automotive",
+    "messageHere": "Message here..",
+    "appointmentNow": "Appointment Now",
+    "servicesWeProvide": "Services we provide",
+    "contactForm": "Contact form",
+    "carRepairServices": "Car Repair The Best Services",
+    "designation": "Mechanic"
+  },
+  "banner": {
+    "subTitle": "Top-Notch Repair Services",
+    "title": {
+      "part1": "Get Your Car",
+      "part2": "Back On Track",
+      "part3": "With"
+    },
+    "text": "Quality repair services to keep your vehicle running smoothly.",
+    "bookNow": "Book Now!",
+    "ourServices": "Our Services"
+  },
+  "ServiceTitle": "Services",
+  "services": {
+    "FirstService": {
+      "title": "Oil Change",
+      "description": "Ensure your engine runs smoothly with our comprehensive oil change service."
+    },
+    "SecondService": {
+      "title": "Brake Repair",
+      "description": "Keep your car safe with our expert brake repair services."
+    },
+    "ThirdService": {
+      "title": "Tire Rotation",
+      "description": "Extend the life of your tires with regular tire rotations."
+    },
+    "FourthService": {
+      "title": "Battery Replacement",
+      "description": "Get a quick and reliable battery replacement to keep your car running."
+    },
+    "FifthService": {
+      "title": "Transmission Service",
+      "description": "Maintain your transmission's performance with our specialized service."
+    },
+    "SixthService": {
+      "title": "Engine Diagnostics",
+      "description": "Identify and resolve engine issues with our advanced diagnostics."
+    }
+  },
+  "teamMembers": "Team Members",
+    "faqArea2": {
+      "subTitle": "Frequently Asked Questions",
+      "title": "Questions About Our Car Repair Shop Platform",
+      "faq1": {
+        "question": "What is Motas?",
+        "answer": "Motas is a platform that connects customers with local car repair shops, providing easy access to reliable repair services and efficient appointment scheduling."
+      },
+      "faq2": {
+        "question": "How can I register my car repair shop on Motas?",
+        "answer": "To register your car repair shop, contact us by form, phone or email. We will contact you back immediately."
+      },
+      "faq3": {
+        "question": "Is there a fee to use Motas?",
+        "answer": "Yes, there is a subscription fee to list your car repair shop on Motas. After you contacting us, we will provide you the best deal to help to improve your business."
+      },
+      "faq4": {
+        "question": "How can customers book appointments through Motas?",
+        "answer": "Customers can book appointments by visiting your repair shop's page on Motas and selecting an available time slot."
+      },
+      "faq5": {
+        "question": "Can customers leave reviews on my repair shop page?",
+        "answer": "Yes, customers can leave reviews and ratings on your repair shop's page, helping others make informed decisions."
+      }
+  }
+  
+}
